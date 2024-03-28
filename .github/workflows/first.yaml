@@ -31,12 +31,7 @@ jobs:
         run: echo "Tests to be added"  # Replace with your test discovery command
 
       - name: Build application (adjust command if building a specific output)
-        run: python setup.py build  # Replace with your build command (e.g., pyinstaller)
-
-      - name: Run linters or static code analysis (optional)
-        run: |  # Example using Pylint
-          pip install pylint
-          pylint my_app.py  # Replace with your lint command and script name(s)
+        run: python app.py build  # Replace with your build command (e.g., pyinstaller)
 
       - name: Upload build artifacts (optional)
         uses: actions/upload-artifact@v3
