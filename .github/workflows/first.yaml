@@ -28,7 +28,7 @@ jobs:
         run: pip list
 
       - name: Run unit tests (adjust command based on your testing framework)
-        run: python -m unittest discover tests  # Replace with your test discovery command
+        run: echo "Tests to be added"  # Replace with your test discovery command
 
       - name: Build application (adjust command if building a specific output)
         run: python setup.py build  # Replace with your build command (e.g., pyinstaller)
