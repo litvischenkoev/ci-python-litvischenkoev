@@ -1,6 +1,3 @@
-I'd be glad to provide a YAML workflow file tailored for continuous integration of a Python Flask application using GitHub Actions:
-
-YAML
 name: Continuous Integration - Python Flask App
 
 on:
